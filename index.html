@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website pembelajaran Sandi Morse untuk anggota Pramuka">
+  <title>Sandi Morse Pramuka | Belajar & Berlatih</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="beranda">
+    <nav class="navbar">
+      <div class="brand">
+        <span class="brand-icon">⌁</span>
+        <div><strong>MORSE</strong><small>PRAMUKA DIGITAL</small></div>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#beranda">Beranda</a>
+        <a href="#materi">Materi</a>
+        <a href="#tabel">Kode Morse</a>
+        <a href="#converter">Konverter</a>
+        <a href="#latihan">Kuis</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-badge">⚜ MATERI KEPRAMUKAAN</div>
+      <h1>Sandi <span>Morse</span></h1>
+      <p>Pelajari sejarah, prinsip, tabel kode, cara membaca dan mengirim pesan Morse, lalu uji kemampuanmu melalui latihan interaktif.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#materi">Mulai Belajar →</a>
+        <a class="btn ghost" href="#latihan">Coba Kuis</a>
+      </div>
+      <div class="stats">
+        <div><b>26</b><span>Huruf</span></div>
+        <div><b>10</b><span>Angka</span></div>
+        <div><b>+</b><span>Tanda baca</span></div>
+      </div>
+    </div>
+    <div class="signal-decoration">·− ·−· ·− ···− ·−</div>
+  </header>
+
+  <main>
+    <section class="section intro" id="materi">
+      <div class="section-heading">
+        <span>01 — DASAR</span>
+        <h2>Mengenal Sandi Morse</h2>
+        <p>Bangun pemahaman dari konsep paling dasar sebelum masuk ke latihan.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="info-card">
+          <div class="card-icon">◉</div>
+          <h3>Apa itu Morse?</h3>
+          <p>Sandi Morse adalah sistem pengodean yang mewakili huruf, angka, dan beberapa tanda baca menggunakan kombinasi <strong>titik (·)</strong> dan <strong>garis (−)</strong>.</p>
+        </article>
+        <article class="info-card">
+          <div class="card-icon">⌁</div>
+          <h3>Dalam Pramuka</h3>
+          <p>Morse digunakan sebagai keterampilan komunikasi dan sandi. Pesan dapat disampaikan melalui tulisan, bunyi, cahaya, gerakan, atau media lain yang disepakati.</p>
+        </article>
+        <article class="info-card">
+          <div class="card-icon">✦</div>
+          <h3>Tujuan Belajar</h3>
+          <p>Melatih ketelitian, konsentrasi, kecepatan mengenali pola, disiplin komunikasi, serta kemampuan mengubah pesan biasa menjadi kode dan sebaliknya.</p>
+        </article>
+      </div>
+
+      <div class="content-grid">
+        <article class="content-panel">
+          <h3>Sejarah Singkat</h3>
+          <p>Sistem Morse dikembangkan pada abad ke-19 dan berkaitan erat dengan perkembangan telegraf. Samuel Morse bersama Alfred Vail berperan dalam pengembangan sistem telegraf dan pengodean yang kemudian dikenal luas sebagai Morse code.</p>
+          <p>Dalam perkembangannya, bentuk kode internasional yang digunakan saat ini dikenal sebagai <strong>International Morse Code</strong>. Sistem ini menjadi salah satu cara penting untuk mengirim informasi melalui media komunikasi yang memiliki sinyal pendek dan panjang.</p>
+        </article>
+        <article class="content-panel accent-panel">
+          <h3>Istilah penting</h3>
+          <ul class="check-list">
+            <li><strong>Titik (dit)</strong> — sinyal pendek.</li>
+            <li><strong>Garis (dah)</strong> — sinyal panjang.</li>
+            <li><strong>Elemen</strong> — titik atau garis penyusun karakter.</li>
+            <li><strong>Pemisah huruf</strong> — jeda antar karakter.</li>
+            <li><strong>Pemisah kata</strong> — jeda lebih panjang antar kata.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="section-heading light">
+        <span>02 — PRINSIP</span>
+        <h2>Bagaimana Morse Bekerja?</h2>
+        <p>Morse bukan sekadar menghafal titik dan garis. Pahami pola dan ritmenya.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>1</span><div><h3>Pesan asli</h3><p>Mulai dari huruf atau kata yang ingin dikirim.</p></div></div>
+        <div class="timeline-item"><span>2</span><div><h3>Pengodean</h3><p>Setiap karakter diubah menjadi kombinasi titik dan garis.</p></div></div>
+        <div class="timeline-item"><span>3</span><div><h3>Pengiriman</h3><p>Kode dikirim melalui bunyi, cahaya, tulisan, atau sinyal lainnya.</p></div></div>
+        <div class="timeline-item"><span>4</span><div><h3>Penerimaan</h3><p>Penerima mengenali pola dan mengubahnya kembali menjadi karakter.</p></div></div>
+      </div>
+
+      <div class="signal-box">
+        <h3>Contoh pola</h3>
+        <div class="signal-row"><span>•</span><span>—</span><span>•</span><span>•</span><span>—</span></div>
+        <p>Jangan membaca setiap simbol secara terpisah tanpa melihat batas karakter. Jeda membantu menentukan kapan satu huruf berakhir dan kata berikutnya dimulai.</p>
+      </div>
+    </section>
+
+    <section class="section" id="tabel">
+      <div class="section-heading">
+        <span>03 — REFERENSI</span>
+        <h2>Tabel Kode Morse</h2>
+        <p>Gunakan pencarian untuk menemukan karakter dengan cepat.</p>
+      </div>
+      <div class="table-tools">
+        <input id="morseSearch" type="search" placeholder="Cari huruf, angka, atau kode…">
+        <select id="morseFilter">
+          <option value="all">Semua</option>
+          <option value="letter">Huruf</option>
+          <option value="number">Angka</option>
+          <option value="punctuation">Tanda baca</option>
+        </select>
+      </div>
+      <div class="morse-grid" id="morseGrid"></div>
+    </section>
+
+    <section class="section converter-section" id="converter">
+      <div class="section-heading">
+        <span>04 — INTERAKTIF</span>
+        <h2>Konverter Morse</h2>
+        <p>Masukkan teks atau kode Morse untuk melihat hasil konversinya.</p>
+      </div>
+
+      <div class="converter">
+        <div class="converter-box">
+          <label for="plainText">Teks biasa → Morse</label>
+          <textarea id="plainText" placeholder="Contoh: PRAMUKA"></textarea>
+          <button class="btn primary full" id="encodeBtn">Konversi ke Morse</button>
+          <div class="result" id="encodeResult">Hasil akan muncul di sini.</div>
+          <button class="copy-btn" data-copy="encodeResult">Salin hasil</button>
+        </div>
+        <div class="converter-box">
+          <label for="morseText">Morse → Teks</label>
+          <textarea id="morseText" placeholder="Contoh: .--. .-. .- -- ..- -.- .-"></textarea>
+          <button class="btn primary full" id="decodeBtn">Konversi ke Teks</button>
+          <div class="result" id="decodeResult">Hasil akan muncul di sini.</div>
+          <button class="copy-btn" data-copy="decodeResult">Salin hasil</button>
+        </div>
+      </div>
+
+      <div class="tip-card">
+        <strong>💡 Tips:</strong> Dalam input Morse, pisahkan setiap huruf dengan spasi dan setiap kata dengan tanda <code>/</code>. Contoh: <code>... .- -. -.. .. / -- --- .-. ... .</code>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <span>05 — TEKNIK</span>
+        <h2>Cara Mengirim Morse</h2>
+        <p>Dalam latihan Pramuka, Morse dapat dipraktikkan dengan beberapa media.</p>
+      </div>
+      <div class="cards four">
+        <article class="method-card"><span>🔊</span><h3>Bunyi</h3><p>Gunakan ketukan, peluit, atau suara dengan membedakan sinyal pendek dan panjang.</p></article>
+        <article class="method-card"><span>🔦</span><h3>Cahaya</h3><p>Gunakan senter dengan kilatan pendek dan panjang. Pastikan kegiatan dilakukan di tempat yang aman.</p></article>
+        <article class="method-card"><span>✍️</span><h3>Tulisan</h3><p>Tulis titik dan garis secara jelas serta beri jarak antar karakter.</p></article>
+        <article class="method-card"><span>🚩</span><h3>Sinyal</h3><p>Gerakan atau media visual dapat digunakan jika aturan dan representasi sinyal sudah disepakati.</p></article>
+      </div>
+
+      <div class="content-grid">
+        <article class="content-panel">
+          <h3>Teknik belajar bertahap</h3>
+          <ol class="number-list">
+            <li>Hafalkan beberapa karakter sederhana terlebih dahulu.</li>
+            <li>Kelompokkan karakter berdasarkan pola yang mirip.</li>
+            <li>Latih membaca kode tanpa melihat tabel.</li>
+            <li>Latih mengirim satu huruf, lalu kata pendek.</li>
+            <li>Tingkatkan kecepatan secara bertahap tanpa mengorbankan ketepatan.</li>
+            <li>Gunakan kata-kata Pramuka sebagai bahan latihan.</li>
+          </ol>
+        </article>
+        <article class="content-panel">
+          <h3>Kesalahan yang sering terjadi</h3>
+          <ul class="warning-list">
+            <li>Titik dan garis tertukar.</li>
+            <li>Jarak antar huruf tidak konsisten.</li>
+            <li>Kata tidak diberi pemisah.</li>
+            <li>Menebak karakter terlalu cepat.</li>
+            <li>Tidak mengulang pesan saat penerimaan diragukan.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="latihan">
+      <div class="section-heading">
+        <span>06 — UJI KEMAMPUAN</span>
+        <h2>Kuis Sandi Morse</h2>
+        <p>Jawab pertanyaan berikut. Skor akan dihitung otomatis.</p>
+      </div>
+      <div class="quiz-top">
+        <div><span>Soal</span><b id="questionNumber">1/10</b></div>
+        <div class="progress"><i id="progressBar"></i></div>
+        <div><span>Skor</span><b id="scoreLabel">0</b></div>
+      </div>
+      <div class="quiz-card" id="quizCard"></div>
+      <div class="quiz-actions">
+        <button class="btn ghost dark-btn" id="prevBtn">← Sebelumnya</button>
+        <button class="btn primary" id="nextBtn">Berikutnya →</button>
+      </div>
+      <div class="quiz-result" id="quizResult" hidden></div>
+    </section>
+
+    <section class="section flash-section">
+      <div class="section-heading">
+        <span>07 — FLASHCARD</span>
+        <h2>Latihan Cepat</h2>
+        <p>Klik kartu untuk melihat kode. Gunakan untuk pemanasan sebelum kuis.</p>
+      </div>
+      <div class="flashcard" id="flashcard">
+        <div class="flash-front"><small>Karakter</small><strong id="flashChar">A</strong><span>Klik untuk membalik</span></div>
+        <div class="flash-back"><small>Kode Morse</small><strong id="flashCode">.-</strong><span>Klik untuk kembali</span></div>
+      </div>
+      <div class="flash-controls">
+        <button class="btn ghost dark-btn" id="flashPrev">←</button>
+        <span id="flashCount">1 / 10</span>
+        <button class="btn ghost dark-btn" id="flashNext">→</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>MORSE PRAMUKA DIGITAL</strong>
+      <p>Media belajar interaktif sandi Morse untuk latihan kepramukaan.</p>
+    </div>
+    <div class="footer-note">Belajar • Berlatih • Teliti • Komunikatif</div>
+  </footer>
+
+  <button class="top-btn" id="topBtn" aria-label="Kembali ke atas">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
